@@ -1,5 +1,3 @@
-version: '3.4'
-
 services:
   destination-data-server:
     container_name: destination-data-server
