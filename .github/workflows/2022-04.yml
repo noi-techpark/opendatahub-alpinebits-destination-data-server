@@ -112,7 +112,7 @@ jobs:
           X_USERNAME: alpinebits
           X_PASSWORD: supersecret
           X_API_VERSION: 2022-04
-          X_SWAGGER_URL: https://swagger.opendatahub.com/?url=https://destinationdata.alpinebits.opendatahub.testingmachine.eu/specification.json
+          X_SWAGGER_URL: https://swagger.opendatahub.com/?url=https://destinationdata.alpinebits.opendatahub.com/specification.json
 
 
       - name: Build and push 
