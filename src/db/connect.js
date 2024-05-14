@@ -14,6 +14,9 @@ const knex = require("knex")({
     user,
     password,
     database,
+    ssl: {
+      rejectUnauthorized: false,
+    }
   },
   // pool: {
   // min: 2,
