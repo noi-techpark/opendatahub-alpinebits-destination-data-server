@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 module.exports.createPoint = function (longitude, latitude, altitude) {
   const coordinates = [];
 

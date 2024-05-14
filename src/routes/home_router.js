@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const { Router } = require("./router");
 const selfUrl = `${process.env.REF_SERVER_URL}/${process.env.API_VERSION}`;
 const responseData = {

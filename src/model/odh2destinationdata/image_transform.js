@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const { Image } = require('../odh/image');
 const { Agent } = require('../destinationdata/agents');
 const { MediaObject } = require('../destinationdata/media_object');

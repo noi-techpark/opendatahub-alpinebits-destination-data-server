@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const { ResourceType } = require('./constants');
 const { IndividualResource } = require('./individual_resource');
 

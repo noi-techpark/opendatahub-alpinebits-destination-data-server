@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const { Agent } = require("./agent");
 const { Category } = require("./category");
 const { Event } = require("./event");

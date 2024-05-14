@@ -1,12 +1,19 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # AlpineBits DestinationData Server
+
+![REUSE Compliance](https://github.com/noi-techpark/odh-alpinebits-destination-data-server/actions/workflows/reuse.yml/badge.svg)
+[![CI/CD](https://github.com/noi-techpark/odh-alpinebits-destination-data-server/actions/workflows/main.yml/badge.svg)](https://github.com/noi-techpark/odh-alpinebits-destination-data-server/actions/workflows/main.yml)
 
 This is a reference implementation for an [AlpineBits](https://www.alpinebits.org/) DestinationData server.
 
-The server exposes data from the [OpenDataHub API](http://tourism.opendatahub.bz.it/) in accordance to the AlpineBits format.
+The server exposes data from the [OpenDataHub API](http://tourism.opendatahub.com/) in accordance to the AlpineBits format.
 
 The current version of the server accepts HTTP GET requests on the following routes:
-
-[![CI/CD](https://github.com/noi-techpark/odh-alpinebits-destination-data-server/actions/workflows/main.yml/badge.svg)](https://github.com/noi-techpark/odh-alpinebits-destination-data-server/actions/workflows/main.yml)
 
 * /
 * /1.0
@@ -80,7 +87,7 @@ npm run create-tables
 npm run insert-defaults
 ```
 
-... and (iii) to populate the database with data imported from the [OpenDataHub API](http://tourism.opendatahub.bz.it/)
+... and (iii) to populate the database with data imported from the [OpenDataHub API](http://tourism.opendatahub.com/)
 
 ```
 npm run import-odh-data
@@ -123,3 +130,17 @@ docker-compose start
 
 For the tests, we are using the [Jest](https://jestjs.io/) framework.
 
+### REUSE
+
+This project is [REUSE](https://reuse.software) compliant, more information about the usage of REUSE in NOI Techpark repositories can be found [here](https://github.com/noi-techpark/odh-docs/wiki/Guidelines-for-developers-and-licenses#guidelines-for-contributors-and-new-developers).
+
+Since the CI for this project checks for REUSE compliance you might find it useful to use a pre-commit hook checking for REUSE compliance locally. The [pre-commit-config](.pre-commit-config.yaml) file in the repository root is already configured to check for REUSE compliance with help of the [pre-commit](https://pre-commit.com) tool.
+
+Install the tool by running:
+```bash
+pip install pre-commit
+```
+Then install the pre-commit hook via the config file by running:
+```bash
+pre-commit install
+```

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const { DestinationDataError } = require("./../../errors");
 const { Agent } = require("./../destinationdata/agents");
 const { Category } = require("./../destinationdata/category");

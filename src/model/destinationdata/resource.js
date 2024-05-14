@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const iso6393to6391 = require("iso-639-3/to-1.json");
 const _ = require("lodash");
 

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const { Router } = require("./router");
 const { FeatureConnector } = require("../connectors/feature_connector");
 const { deserializeFeature } = require("../model/destinationdata2022");

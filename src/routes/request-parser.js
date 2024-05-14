@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const schemas = require("./query-schemas");
 const Ajv = new require("ajv");
 const ajv = new Ajv();

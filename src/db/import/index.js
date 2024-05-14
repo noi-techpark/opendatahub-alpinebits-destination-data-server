@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const fs = require("fs");
 const sanitizeHtml = require("sanitize-html");
 const _ = require("lodash");
@@ -1260,7 +1264,7 @@ function getAreaOwnerId(item) {
 }
 
 function getItemDataProvider() {
-  return "http://tourism.opendatahub.bz.it/";
+  return "http://tourism.opendatahub.com/";
 }
 
 function getItemCreationDate(item) {

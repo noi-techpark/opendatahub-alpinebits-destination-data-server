@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const _ = require("lodash");
 const knex = require("../db/connect");
 const dbFn = require("../db/functions");

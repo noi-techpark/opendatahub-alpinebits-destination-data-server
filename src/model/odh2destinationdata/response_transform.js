@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const { Collection: OdhCollection } = require("../odh/collection");
 const { Item: OdhItem } = require("../odh/item");
 const { Event: OdhEvent } = require("../odh/event");

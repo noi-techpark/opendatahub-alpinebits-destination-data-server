@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: MPL-2.0
+
 const { IndividualResource } = require("./individual_resource");
 
 class SkiSlope extends IndividualResource {
